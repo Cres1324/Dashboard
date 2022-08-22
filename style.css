@@ -1,0 +1,53 @@
+html{
+    height: 100%;
+
+}
+body{
+    height: inherit;
+    margin: 0px;
+}
+.site_content{
+    display: grid ;
+    grid-template-columns: 2fr 7fr;
+    height: 100%;
+    width: 100%;
+
+}
+.sidebar{
+    background-color: blueviolet;
+}
+.content{
+    background-color: blanchedalmond;
+    display: grid;
+    grid-template-rows: 2fr 9fr;
+
+}
+.control_panel{
+    display: grid;
+    grid-template-rows: 3fr 5fr;
+    background-color: aqua;
+}
+.user{
+
+}
+.search{
+
+}
+.articles{
+ background-color: rgb(80, 56, 27);
+ display: grid;
+ grid-template-columns: 3fr 1fr;
+ grid-template-rows: 2fr 1fr;
+}
+.projects{
+    grid-row: 1/3;
+    background-color: azure;
+}
+.annoucements{
+    background-color: brown;
+    
+}
+.trending{
+    background-color: aquamarine;
+    grid-column: 2;
+}
